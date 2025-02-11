@@ -1,6 +1,6 @@
-let express = require("express");
-let cors = require('cors');
-let app = express();
+const express = require("express");
+const cors = require('cors');
+lconst app = express();
 let port = 3000;
 app.use(cors());
 // Array of products
